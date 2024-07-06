@@ -120,32 +120,90 @@ namespace PicturePuzzle
 
         bool CheckWin()
         {
-            return false;
+            int i;
+            for (i = 0; i < 8; i++)
+            {
+                if ((gbPuzzleBox.Controls[i] as PictureBox).Image != OriginalPictureList[i]) break;
+            }
+            if (i == 8)
+            {
+                return true;
+            }
+            else return false;
         }
+
 
         private void btnShuffle_Click(object sender, EventArgs e)
         {
-        
+            DialogResult YesOrNo = new DialogResult();
+            if (lblTimeElapsed.Text != "00:00:00")
+            {
+                YesOrNo = MessageBox.Show("Are you sure you want to RESTART the game?", "Picture Puzzle", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            }
+            if (YesOrNo == DialogResult.Yes || lblTimeElapsed.Text == "00:00:00")
+            {
+                ShufflePictures();
+                timer.Reset();
+                lblTimeElapsed.Text = "00:00:00";
+                numOfMoves = 0;
+                lblMovesMade.Text = "Moves Made : 0";
+            }
         }
 
         private void btnQuit_Click(object sender, EventArgs e)
         {
-
+            AskPermissionBeforeQuite(sender, e as FormClosingEventArgs);
         }
 
-        private void PauseOrResume(object sender, EventArgs e)
-        { 
 
+        private void PauseOrResume(object sender, EventArgs e)
+        {
+            if (btnPause.Text == "Pause")
+            {
+                timer.Stop();
+                gbPuzzleBox.Visible = false;
+                btnPause.Text = "Resume";
+            }
+            else
+            {
+                timer.Start();
+                gbPuzzleBox.Visible = true;
+                btnPause.Text = "Pause";
+            }
         }
 
         private void UpdateTimeElapsed(object sender, EventArgs e)
         {
+            if (timer.Elapsed.ToString() != "00:00:00")
+                lblTimeElapsed.Text = timer.Elapsed.ToString().Remove(8);
+            if (timer.Elapsed.ToString() == "00:00:00")
+                btnPause.Enabled = false;
+            else
+                btnPause.Enabled = true;
+            if (timer.Elapsed.Minutes.ToString() == "1")
+            {
+                timer.Reset();
+                lblMovesMade.Text = "Moves Made : 0";
+                lblTimeElapsed.Text = "00:00:00";
+                numOfMoves = 0;
+                btnPause.Enabled = false;
+                MessageBox.Show("Time Is Up. Try Again", "Picture Puzzle");
+                ShufflePictures();
+            }
+        }
 
+        private void AskPermissionBeforeQuite(object sender, FormClosingEventArgs e)
+        {
+            DialogResult YesOrNO = MessageBox.Show("Are you sure you want to QUIT the game?", "Picture Puzzle", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (sender as Button != btnQuit && YesOrNO == DialogResult.No) e.Cancel = true;
+            if (sender as Button == btnQuit && YesOrNO == DialogResult.Yes) Environment.Exit(0);
         }
 
 
+      
 
-        }
-   
-    
+
+    }
+
+
 }
