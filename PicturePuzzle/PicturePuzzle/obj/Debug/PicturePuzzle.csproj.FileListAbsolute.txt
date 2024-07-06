@@ -7,3 +7,12 @@ D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzle\PicturePuzzle\bin
 D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzle\PicturePuzzle\bin\Debug\PicturePuzzle.pdb
 D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzle\PicturePuzzle\obj\Debug\PicturePuzzle.exe
 D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzle\PicturePuzzle\obj\Debug\PicturePuzzle.pdb
+D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzleGame\PicturePuzzle\PicturePuzzle\bin\Debug\PicturePuzzle.exe
+D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzleGame\PicturePuzzle\PicturePuzzle\bin\Debug\PicturePuzzle.pdb
+D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzleGame\PicturePuzzle\PicturePuzzle\obj\Debug\PicturePuzzle.csproj.AssemblyReference.cache
+D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzleGame\PicturePuzzle\PicturePuzzle\obj\Debug\PicturePuzzle.Form1.resources
+D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzleGame\PicturePuzzle\PicturePuzzle\obj\Debug\PicturePuzzle.Properties.Resources.resources
+D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzleGame\PicturePuzzle\PicturePuzzle\obj\Debug\PicturePuzzle.csproj.GenerateResource.cache
+D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzleGame\PicturePuzzle\PicturePuzzle\obj\Debug\PicturePuzzle.csproj.CoreCompileInputs.cache
+D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzleGame\PicturePuzzle\PicturePuzzle\obj\Debug\PicturePuzzle.exe
+D:\II\VisualStudioProjects\VizuelnoProgramiranje\PicturePuzzleGame\PicturePuzzle\PicturePuzzle\obj\Debug\PicturePuzzle.pdb

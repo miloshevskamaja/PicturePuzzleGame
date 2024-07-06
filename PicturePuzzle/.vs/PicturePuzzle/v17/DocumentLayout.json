@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\",
+  "WorkspaceRootPath": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\picturepuzzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|d:\\ii\\visualstudioprojects\\vizuelnoprogramiranje\\picturepuzzlegame\\picturepuzzle\\picturepuzzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|solutionrelative:picturepuzzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|d:\\ii\\visualstudioprojects\\vizuelnoprogramiranje\\picturepuzzle\\picturepuzzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\picturepuzzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|solutionrelative:picturepuzzle\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\picturepuzzle\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\picturepuzzle\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|solutionrelative:picturepuzzle\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\picturepuzzle\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\picturepuzzle\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B530CE5A-7619-436D-AEEF-ED27EF1CEF6A}|PicturePuzzle\\PicturePuzzle.csproj|solutionrelative:picturepuzzle\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\PicturePuzzle\\Form1.Designer.cs",
+              "DocumentMoniker": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\PicturePuzzle\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "PicturePuzzle\\Form1.Designer.cs",
-              "ToolTip": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\PicturePuzzle\\Form1.Designer.cs",
+              "ToolTip": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\PicturePuzzle\\Form1.Designer.cs",
               "RelativeToolTip": "PicturePuzzle\\Form1.Designer.cs",
               "ViewState": "AQIAAKoAAAAAAAAAAAAuwMAAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -53,9 +53,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\PicturePuzzle\\Form1.cs",
+              "DocumentMoniker": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\PicturePuzzle\\Form1.cs",
               "RelativeDocumentMoniker": "PicturePuzzle\\Form1.cs",
-              "ToolTip": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\PicturePuzzle\\Form1.cs [Design]",
+              "ToolTip": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\PicturePuzzle\\Form1.cs [Design]",
               "RelativeToolTip": "PicturePuzzle\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T13:43:30.699Z",
@@ -65,11 +65,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\PicturePuzzle\\Form1.cs",
+              "DocumentMoniker": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\PicturePuzzle\\Form1.cs",
               "RelativeDocumentMoniker": "PicturePuzzle\\Form1.cs",
-              "ToolTip": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\PicturePuzzle\\Form1.cs",
+              "ToolTip": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\PicturePuzzle\\Form1.cs",
               "RelativeToolTip": "PicturePuzzle\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAuwBMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-06T13:50:46.583Z",
               "EditorCaption": ""
@@ -78,13 +78,12 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Resources.resx",
-              "DocumentMoniker": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\PicturePuzzle\\Properties\\Resources.resx",
+              "DocumentMoniker": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\PicturePuzzle\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "PicturePuzzle\\Properties\\Resources.resx",
-              "ToolTip": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzle\\PicturePuzzle\\Properties\\Resources.resx",
+              "ToolTip": "D:\\II\\VisualStudioProjects\\VizuelnoProgramiranje\\PicturePuzzleGame\\PicturePuzzle\\PicturePuzzle\\Properties\\Resources.resx",
               "RelativeToolTip": "PicturePuzzle\\Properties\\Resources.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-07-06T13:53:22.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T13:53:22.637Z"
             }
           ]
         }
