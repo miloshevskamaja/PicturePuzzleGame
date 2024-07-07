@@ -1,7 +1,7 @@
 # PicturePuzzleGame
 
 
-```
+```ruby
  private void UpdateTimeElapsed(object sender, EventArgs e)
  {
      if (timer.Elapsed.ToString() != "00:00:00")
