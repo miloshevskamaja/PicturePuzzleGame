@@ -22,7 +22,7 @@
    •	Medium <br/>
    •	Easy**
    
-![game1](https://github.com/miloshevskamaja/PicturePuzzleGame/assets/139159171/c01bae57-ff27-4df4-bec1-b27d1cda80aa)
+![game1](https://github.com/miloshevskamaja/PicturePuzzleGame/assets/139159171/987a1fa7-1e70-4bb5-a45a-7b0d00849780)
 
 ![game2](https://github.com/miloshevskamaja/PicturePuzzleGame/assets/139159171/582679e2-a1fb-49ed-92d7-7c4fab8b65e1)
 
