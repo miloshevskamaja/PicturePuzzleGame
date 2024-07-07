@@ -22,7 +22,8 @@
    •	Medium <br/>
    •	Easy**
    
-![game1](https://github.com/miloshevskamaja/PicturePuzzleGame/assets/139159171/bf49b016-add6-4bdd-afb1-adb6e11ddbbf)
+![game1](https://github.com/miloshevskamaja/PicturePuzzleGame/assets/139159171/c01bae57-ff27-4df4-bec1-b27d1cda80aa)
+
 ![game2](https://github.com/miloshevskamaja/PicturePuzzleGame/assets/139159171/582679e2-a1fb-49ed-92d7-7c4fab8b65e1)
 
 
@@ -70,7 +71,8 @@
    if (difficulty == "medium")
    {
    	gbOriginal.BackgroundImage = Properties.Resources.original;
-    	OriginalPictureList.AddRange(new Bitmap[] { Properties.Resources._1, Properties.Resources._2, Properties.Resources._3, Properties.Resources._4, Properties.Resources._5, Properties.Resources._6, 		Properties.Resources._7, Properties.Resources._8, Properties.Resources._9, Properties.Resources._null });
+    	OriginalPictureList.AddRange(new Bitmap[] { Properties.Resources._1, Properties.Resources._2, Properties.Resources._3, Properties.Resources._4, Properties.Resources._5, 				 
+        Properties.Resources._6,Properties.Resources._7, Properties.Resources._8, Properties.Resources._9, Properties.Resources._null });
    }
    ```
 
@@ -84,18 +86,18 @@
 
    bool CheckWin()
    {
-    int i;
-    for (i = 0; i < 8; i++)
-    {
-      if ((gbPuzzleBox.Controls[i] as PictureBox).Image != OriginalPictureList[i])
-	break;
-    }
-    if (i == 8)
-    {
-	return true;
-    }
-    else return false;
-    }
+    	int i;
+    	for (i = 0; i < 8; i++)
+    	{
+            if ((gbPuzzleBox.Controls[i] as PictureBox).Image != OriginalPictureList[i])
+	        break;
+   	}
+    	if (i == 8)
+    	{
+ 	   return true;
+    	}
+    	else return false;
+   }
 
    ```
    Оваа функција ја користиме во друга функција со име **SwitchPictureBox()**, која се повикува со секој клик на делче од сликата. Освен друг код содржан во оваа функција кој може да се види во кодот на 
@@ -153,7 +155,7 @@
 
   ## Изработка: <br/>
   
-  -Маја Милошевска (221095)
+  -Маја Милошевска (221095) <br/>
   -Константина Михаилова (221107)
 
 
