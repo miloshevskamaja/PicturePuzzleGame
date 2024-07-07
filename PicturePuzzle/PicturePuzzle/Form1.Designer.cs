@@ -28,262 +28,153 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.gbPuzzleBox = new System.Windows.Forms.GroupBox();
-            this.pbx1 = new System.Windows.Forms.PictureBox();
-            this.pbx2 = new System.Windows.Forms.PictureBox();
-            this.pbx3 = new System.Windows.Forms.PictureBox();
-            this.pbx4 = new System.Windows.Forms.PictureBox();
-            this.pbx5 = new System.Windows.Forms.PictureBox();
-            this.pbx6 = new System.Windows.Forms.PictureBox();
-            this.pbx7 = new System.Windows.Forms.PictureBox();
-            this.pbx8 = new System.Windows.Forms.PictureBox();
-            this.pbx9 = new System.Windows.Forms.PictureBox();
-            this.gbOriginal = new System.Windows.Forms.GroupBox();
-            this.lblTimeElapsed = new System.Windows.Forms.Label();
-            this.btnShuffle = new System.Windows.Forms.Button();
-            this.btnPause = new System.Windows.Forms.Button();
-            this.btnQuit = new System.Windows.Forms.Button();
-            this.lblMovesMade = new System.Windows.Forms.Label();
-            this.tmrTimeElapse = new System.Windows.Forms.Timer(this.components);
-            this.gbPuzzleBox.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx9)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // gbPuzzleBox
+            // button1
             // 
-            this.gbPuzzleBox.Controls.Add(this.pbx1);
-            this.gbPuzzleBox.Controls.Add(this.pbx2);
-            this.gbPuzzleBox.Controls.Add(this.pbx3);
-            this.gbPuzzleBox.Controls.Add(this.pbx4);
-            this.gbPuzzleBox.Controls.Add(this.pbx5);
-            this.gbPuzzleBox.Controls.Add(this.pbx6);
-            this.gbPuzzleBox.Controls.Add(this.pbx7);
-            this.gbPuzzleBox.Controls.Add(this.pbx8);
-            this.gbPuzzleBox.Controls.Add(this.pbx9);
-            this.gbPuzzleBox.Location = new System.Drawing.Point(546, 60);
-            this.gbPuzzleBox.Margin = new System.Windows.Forms.Padding(4);
-            this.gbPuzzleBox.Name = "gbPuzzleBox";
-            this.gbPuzzleBox.Padding = new System.Windows.Forms.Padding(4);
-            this.gbPuzzleBox.Size = new System.Drawing.Size(569, 533);
-            this.gbPuzzleBox.TabIndex = 1;
-            this.gbPuzzleBox.TabStop = false;
-            this.gbPuzzleBox.Text = "PuzzleBox";
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(147, 173);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(130, 66);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "EASY";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pbx1
+            // button2
             // 
-            this.pbx1.Location = new System.Drawing.Point(23, 28);
-            this.pbx1.Margin = new System.Windows.Forms.Padding(4);
-            this.pbx1.Name = "pbx1";
-            this.pbx1.Size = new System.Drawing.Size(173, 160);
-            this.pbx1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx1.TabIndex = 0;
-            this.pbx1.TabStop = false;
-            this.pbx1.Click += new System.EventHandler(this.SwitchPictureBox);
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(506, 170);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(165, 69);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "MEDIUM";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // pbx2
+            // button3
             // 
-            this.pbx2.Location = new System.Drawing.Point(199, 28);
-            this.pbx2.Margin = new System.Windows.Forms.Padding(4);
-            this.pbx2.Name = "pbx2";
-            this.pbx2.Size = new System.Drawing.Size(173, 160);
-            this.pbx2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx2.TabIndex = 0;
-            this.pbx2.TabStop = false;
-            this.pbx2.Click += new System.EventHandler(this.SwitchPictureBox);
+            this.button3.BackColor = System.Drawing.Color.Red;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(929, 173);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(127, 67);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "HARD";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // pbx3
+            // label1
             // 
-            this.pbx3.Location = new System.Drawing.Point(375, 28);
-            this.pbx3.Margin = new System.Windows.Forms.Padding(4);
-            this.pbx3.Name = "pbx3";
-            this.pbx3.Size = new System.Drawing.Size(173, 160);
-            this.pbx3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx3.TabIndex = 0;
-            this.pbx3.TabStop = false;
-            this.pbx3.Click += new System.EventHandler(this.SwitchPictureBox);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(236, 50);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(688, 62);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "CHOOSE DIFFICULTY LEVEL";
             // 
-            // pbx4
+            // label2
             // 
-            this.pbx4.Location = new System.Drawing.Point(23, 191);
-            this.pbx4.Margin = new System.Windows.Forms.Padding(4);
-            this.pbx4.Name = "pbx4";
-            this.pbx4.Size = new System.Drawing.Size(173, 160);
-            this.pbx4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx4.TabIndex = 0;
-            this.pbx4.TabStop = false;
-            this.pbx4.Click += new System.EventHandler(this.SwitchPictureBox);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(159, 495);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(75, 37);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "DOG";
             // 
-            // pbx5
+            // label3
             // 
-            this.pbx5.Location = new System.Drawing.Point(199, 191);
-            this.pbx5.Margin = new System.Windows.Forms.Padding(4);
-            this.pbx5.Name = "pbx5";
-            this.pbx5.Size = new System.Drawing.Size(173, 160);
-            this.pbx5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx5.TabIndex = 0;
-            this.pbx5.TabStop = false;
-            this.pbx5.Click += new System.EventHandler(this.SwitchPictureBox);
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(952, 495);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(99, 37);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "TIGER";
             // 
-            // pbx6
+            // label4
             // 
-            this.pbx6.Location = new System.Drawing.Point(375, 191);
-            this.pbx6.Margin = new System.Windows.Forms.Padding(4);
-            this.pbx6.Name = "pbx6";
-            this.pbx6.Size = new System.Drawing.Size(173, 160);
-            this.pbx6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx6.TabIndex = 0;
-            this.pbx6.TabStop = false;
-            this.pbx6.Click += new System.EventHandler(this.SwitchPictureBox);
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("MV Boli", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(543, 495);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(71, 37);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "CAT";
             // 
-            // pbx7
+            // groupBox3
             // 
-            this.pbx7.Location = new System.Drawing.Point(23, 353);
-            this.pbx7.Margin = new System.Windows.Forms.Padding(4);
-            this.pbx7.Name = "pbx7";
-            this.pbx7.Size = new System.Drawing.Size(173, 160);
-            this.pbx7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx7.TabIndex = 0;
-            this.pbx7.TabStop = false;
-            this.pbx7.Click += new System.EventHandler(this.SwitchPictureBox);
+            this.groupBox3.BackgroundImage = global::PicturePuzzle.Properties.Resources.tigerPicture;
+            this.groupBox3.Location = new System.Drawing.Point(807, 245);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(353, 247);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
             // 
-            // pbx8
+            // groupBox2
             // 
-            this.pbx8.Location = new System.Drawing.Point(199, 353);
-            this.pbx8.Margin = new System.Windows.Forms.Padding(4);
-            this.pbx8.Name = "pbx8";
-            this.pbx8.Size = new System.Drawing.Size(173, 160);
-            this.pbx8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx8.TabIndex = 0;
-            this.pbx8.TabStop = false;
-            this.pbx8.Click += new System.EventHandler(this.SwitchPictureBox);
+            this.groupBox2.BackgroundImage = global::PicturePuzzle.Properties.Resources.original;
+            this.groupBox2.Location = new System.Drawing.Point(415, 245);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(347, 247);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
             // 
-            // pbx9
+            // groupBox1
             // 
-            this.pbx9.Location = new System.Drawing.Point(375, 353);
-            this.pbx9.Margin = new System.Windows.Forms.Padding(4);
-            this.pbx9.Name = "pbx9";
-            this.pbx9.Size = new System.Drawing.Size(173, 160);
-            this.pbx9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbx9.TabIndex = 0;
-            this.pbx9.TabStop = false;
-            this.pbx9.Click += new System.EventHandler(this.SwitchPictureBox);
+            this.groupBox1.BackgroundImage = global::PicturePuzzle.Properties.Resources.dogPicture;
+            this.groupBox1.Location = new System.Drawing.Point(33, 245);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(347, 247);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
             // 
-            // gbOriginal
+            // button4
             // 
-            this.gbOriginal.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gbOriginal.BackgroundImage")));
-            this.gbOriginal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.gbOriginal.Location = new System.Drawing.Point(67, 88);
-            this.gbOriginal.Margin = new System.Windows.Forms.Padding(4);
-            this.gbOriginal.Name = "gbOriginal";
-            this.gbOriginal.Padding = new System.Windows.Forms.Padding(4);
-            this.gbOriginal.Size = new System.Drawing.Size(420, 347);
-            this.gbOriginal.TabIndex = 2;
-            this.gbOriginal.TabStop = false;
-            this.gbOriginal.Text = "Original Picture";
-           
-            // 
-            // lblTimeElapsed
-            // 
-            this.lblTimeElapsed.AutoSize = true;
-            this.lblTimeElapsed.Font = new System.Drawing.Font("Impact", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTimeElapsed.Location = new System.Drawing.Point(108, 449);
-            this.lblTimeElapsed.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblTimeElapsed.Name = "lblTimeElapsed";
-            this.lblTimeElapsed.Size = new System.Drawing.Size(332, 98);
-            this.lblTimeElapsed.TabIndex = 4;
-            this.lblTimeElapsed.Text = "00:00:00";
-            // 
-            // btnShuffle
-            // 
-            this.btnShuffle.BackColor = System.Drawing.Color.White;
-            this.btnShuffle.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnShuffle.Location = new System.Drawing.Point(67, 564);
-            this.btnShuffle.Margin = new System.Windows.Forms.Padding(4);
-            this.btnShuffle.Name = "btnShuffle";
-            this.btnShuffle.Size = new System.Drawing.Size(115, 52);
-            this.btnShuffle.TabIndex = 5;
-            this.btnShuffle.Text = "Shuffle";
-            this.btnShuffle.UseVisualStyleBackColor = false;
-            this.btnShuffle.Click += new System.EventHandler(this.btnShuffle_Click);
-            // 
-            // btnPause
-            // 
-            this.btnPause.Enabled = false;
-            this.btnPause.Location = new System.Drawing.Point(206, 564);
-            this.btnPause.Margin = new System.Windows.Forms.Padding(4);
-            this.btnPause.Name = "btnPause";
-            this.btnPause.Size = new System.Drawing.Size(115, 52);
-            this.btnPause.TabIndex = 6;
-            this.btnPause.Text = "Pause";
-            this.btnPause.UseVisualStyleBackColor = true;
-            this.btnPause.Click += new System.EventHandler(this.PauseOrResume);
-            // 
-            // btnQuit
-            // 
-            this.btnQuit.BackColor = System.Drawing.Color.White;
-            this.btnQuit.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnQuit.Location = new System.Drawing.Point(346, 564);
-            this.btnQuit.Margin = new System.Windows.Forms.Padding(4);
-            this.btnQuit.Name = "btnQuit";
-            this.btnQuit.Size = new System.Drawing.Size(115, 52);
-            this.btnQuit.TabIndex = 2;
-            this.btnQuit.Text = "Quit";
-            this.btnQuit.UseVisualStyleBackColor = false;
-            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
-            // 
-            // lblMovesMade
-            // 
-            this.lblMovesMade.AutoSize = true;
-            this.lblMovesMade.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMovesMade.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lblMovesMade.Location = new System.Drawing.Point(565, 609);
-            this.lblMovesMade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblMovesMade.Name = "lblMovesMade";
-            this.lblMovesMade.Size = new System.Drawing.Size(148, 24);
-            this.lblMovesMade.TabIndex = 7;
-            this.lblMovesMade.Text = "Moves Made : ";
-            // 
-            // tmrTimeElapse
-            // 
-            this.tmrTimeElapse.Enabled = true;
-            this.tmrTimeElapse.Interval = 900;
-            this.tmrTimeElapse.Tick += new System.EventHandler(this.UpdateTimeElapsed);
+            this.button4.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(33, 579);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(96, 28);
+            this.button4.TabIndex = 8;
+            this.button4.Text = "Back";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1167, 685);
-            this.Controls.Add(this.lblMovesMade);
-            this.Controls.Add(this.btnQuit);
-            this.Controls.Add(this.btnPause);
-            this.Controls.Add(this.btnShuffle);
-            this.Controls.Add(this.lblTimeElapsed);
-            this.Controls.Add(this.gbOriginal);
-            this.Controls.Add(this.gbPuzzleBox);
+            this.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.ClientSize = new System.Drawing.Size(1164, 684);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "ChooseLevel";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.gbPuzzleBox.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pbx1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbx9)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -291,23 +182,16 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox gbPuzzleBox;
-        private System.Windows.Forms.PictureBox pbx1;
-        private System.Windows.Forms.PictureBox pbx2;
-        private System.Windows.Forms.PictureBox pbx3;
-        private System.Windows.Forms.PictureBox pbx4;
-        private System.Windows.Forms.PictureBox pbx5;
-        private System.Windows.Forms.PictureBox pbx6;
-        private System.Windows.Forms.PictureBox pbx7;
-        private System.Windows.Forms.PictureBox pbx8;
-        private System.Windows.Forms.PictureBox pbx9;
-        private System.Windows.Forms.GroupBox gbOriginal;
-        private System.Windows.Forms.Label lblTimeElapsed;
-        private System.Windows.Forms.Button btnShuffle;
-        private System.Windows.Forms.Button btnPause;
-        private System.Windows.Forms.Button btnQuit;
-        private System.Windows.Forms.Label lblMovesMade;
-        private System.Windows.Forms.Timer tmrTimeElapse;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button4;
     }
 }
-
