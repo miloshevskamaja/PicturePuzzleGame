@@ -72,7 +72,7 @@
    {
    	gbOriginal.BackgroundImage = Properties.Resources.original;
     	OriginalPictureList.AddRange(new Bitmap[] { Properties.Resources._1, Properties.Resources._2, Properties.Resources._3, Properties.Resources._4, Properties.Resources._5, 				 
-        Properties.Resources._6,Properties.Resources._7, Properties.Resources._8, Properties.Resources._9, Properties.Resources._null });
+            Properties.Resources._6,Properties.Resources._7, Properties.Resources._8, Properties.Resources._9, Properties.Resources._null });
    }
    ```
 
@@ -94,7 +94,7 @@
    	}
     	if (i == 8)
     	{
- 	   return true;
+		return true;
     	}
     	else return false;
    }
